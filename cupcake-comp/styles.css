@@ -1,3 +1,9 @@
-body { 
-background-color: tan;
+.head { 
+background-color: #FDF5E6;
  }
+ body {
+  background-color: #FFFACD;
+ }
+footer {
+  background-color: #D8BFD8;
+}
