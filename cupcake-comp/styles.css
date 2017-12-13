@@ -7,3 +7,34 @@ background-color: #FDF5E6;
 footer {
   background-color: #D8BFD8;
 }
+.column {
+    float: left;
+    width: 15%;
+    
+}
+.images {
+  display: block;
+  margin: auto;
+  width: 630px;
+
+}
+
+.picture3 {
+  width: 200px;
+  height: 200px;
+  display: inline;
+margin-right:15px;
+}
+.picture4 {
+  width: 200px;
+  height: 200px;
+  display: inline;
+margin-right:15px;
+}
+
+.picture5{
+  width: 200px;
+  height: 200px;
+  display: inline;
+margin-right:15px;
+}
