@@ -1,40 +1,39 @@
 .head { 
 background-color: #FDF5E6;
+height: 150px;
  }
+
  body {
   background-color: #FFFACD;
+}
+  main {
+    margin-top: 100px;
  }
+
 footer {
   background-color: #D8BFD8;
+  height: 200px;
 }
 .column {
     float: left;
     width: 15%;
     
 }
-.images {
-  display: block;
-  margin: auto;
-  width: 630px;
-
+li {
+  display: inline;
 }
 
-.picture3 {
-  width: 200px;
-  height: 200px;
-  display: inline;
-margin-right:15px;
+.left-angle {
+  position: absolute;
+  left: 15%;
+  top: 40%;
+  transform: translate(-200px, 150px);
+  display: inline-block;
 }
-.picture4 {
-  width: 200px;
-  height: 200px;
-  display: inline;
-margin-right:15px;
-}
-
-.picture5{
-  width: 200px;
-  height: 200px;
-  display: inline;
-margin-right:15px;
+.right-angle {
+      position: absolute;
+      left: 56%;
+      top: 40%;
+      transform: translate(-200px, 150px);
+      display: inline-block;
 }
