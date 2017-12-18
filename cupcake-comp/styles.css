@@ -1,6 +1,7 @@
 .head { 
 background-color: #F2F0D9;
 height: 150px;
+text-align: center;
  }
 
  body {
@@ -22,44 +23,63 @@ height: 150px;
 .cupcake {
   width: 200px;
   height: 300px;
-  margin-right:10px;
+  display: inline-block;
  }
 
 footer {
   background-color: #DCBAEE;
   height: 200px;
+  text-align: left;
+
 }
 
 .column {
     float: left;
     width: 15%;
+    margin-left: 50px;
     
 }
 
 .one {
-  background-color: orange;
+  margin-right: 20px;
+
+}
+.three {
+  margin-left: 20px;
 }
 li {
   display: inline;
-  border: 1px solid black;
+  word-spacing: 2px;
+  
+}
+ul {
+  word-spacing: 30px;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
+.first {
+    display: inline-block;
+    width: 50px;
+    height: 130px;
+    margin: 10px;
+    fill: #473232; 
+   
+}
 .left-angle {
   position: absolute;
   left: 15%;
   top: 40%;
-  transform: translate(-100px, 150px);
+  transform: translate(40px, 20px);
   display: inline-block;
 }
 .right-angle {
       position: absolute;
       left: 56%;
       top: 40%;
-      transform: translate(-200px, 150px);
+      transform: translate(215px, 20px);
       display: inline-block;
 }
 
@@ -72,4 +92,10 @@ a{
 
 .empty-space {
   height: 10px;
+}
+
+.logo {
+  left: 15%;
+  top: 40%;
+  transform: translate(150px, -1px);
 }
